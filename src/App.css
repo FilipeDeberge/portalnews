@@ -1,0 +1,182 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Sora Bold', sans-serif;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+/* formatação do header */
+.header{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-image: url('../public/fundo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color:white;
+  font-size: 20px;
+  font-family: 'Sora Bold', sans-serif;
+
+}
+/* formatação da logo */
+.portal{
+  font-size: 60px;
+  font-family: 'Sora Bold', sans-serif;
+  color:white;
+}
+/* formatação do menu */
+.menu{
+  display:flex;
+  list-style:none;
+  font-weight: bold;
+}
+/* formatação dos itens do menu */
+.menu li{
+  margin-left: 25px;
+}
+/* formatação do conteúdo */
+.container{
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  
+}
+/* formatação do conteúdo da página de notícias */
+.containerform{
+  max-width: 60%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  
+}
+/* formatação do formulario de cadastro de notícias e edição de notícias */
+.form-group{
+  padding-top: 10px;
+  display:flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.form-group #data{
+  margin-top: 10px;
+  max-width: fit-content;
+}
+.form-group #titulo{
+  margin-top: 10px;
+  max-width: 60%;
+}
+
+/* formatação do botão de cadastro de notícias e salvar edição notícia */
+.btn{
+  padding: 10px;
+  margin: 10px;
+  background-color: #3e3e3e;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  font-size: large;
+}
+.btn:hover{
+  background-color: #5e5e5e;
+}
+.btn:active{
+  background-color: #7e7e7e;
+}
+/* formatação do card de noticias */
+.card{
+  margin:0 auto;
+  display:flex;
+  max-width: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(127, 255, 212, 0);
+  color:black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+/* formatação do botão de editar e deletar notícia */
+.btn_editar{
+  background: url('../public/editar.png') no-repeat ;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border: none;
+  flex-direction: row;
+
+}
+.btn_deletar{
+  background: url('../public/deletar.png') no-repeat ;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border: none;
+
+}
+/* formatação do título do card de notícias */
+.card-title{
+  font-size: x-large;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  font-family: Algerian;
+}
+/* formatação do texto do card de notícias */
+.card-text{
+  font-size: 20px;
+  margin: 30px;
+  font-family: Agency FB;
+
+}
+/* formatação itens de uma lista */
+li{
+  list-style: none;
+  flex-direction: column;
+}
+/* formatação dos botões de editar e excluir */
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+/* formatação da data notícia */
+.card-data{
+  font-weight: bold;
+  text-align: right;
+  padding:10px;
+  font-size: small;
+}
+.login{
+  width:85%;
+  margin:50px auto;
+  padding:20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px rgb(255, 254, 254);
+}
